@@ -128,11 +128,11 @@
 		"tab.hoverForeground": "#f0f0ff",
 		"tab.lastPinnedBorder": "#ddddff",
 		"tab.activeBackground": "#aaaaff33",
-		"tab.inactiveBackground": "#1A1C21",
+		"tab.inactiveBackground": "#202329",
 		"tab.hoverBackground": "#aaaaff33",
 
 		// EDITOR COLORS
-		"editor.background": "#292c36",
+		"editor.background": "#1A1C21",
 		"editor.foreground": "#f7f7ff",
 		"editorLineNumber.foreground": "#ddddff77",
 		"editorLineNumber.activeForeground": "#ddddff",
@@ -147,19 +147,16 @@
 		"editor.findRangeHighlightBackground": "#00000033",
 		"searchEditor.findMatchBackground": "#aaaaff33",
 		"editor.hoverHighlightBackground": "#aaaaff33",
-		"editor.lineHighlightBackground": "#00000033",
+		"editor.lineHighlightBackground": "#aaaaff11",
 		"editor.lineHighlightBorder": "#00000000",
 		"editor.rangeHighlightBackground": "#00000033",
 		"editorWhitespace.foreground": "#aaaaff77",
 		"editorIndentGuide.background": "#aaaaff33",
 		"editorIndentGuide.activeBackground": "#aaaaff77",
 
-		// "editorBracketHighlight.foreground1": "#FFD013",
-		// "editorBracketHighlight.foreground2": "#18AAFF",
-		// "editorBracketHighlight.foreground3": "#1BE195",
-		// "editorBracketHighlight.foreground4": "#FFD013",
-		// "editorBracketHighlight.foreground5": "#18AAFF",
-		// "editorBracketHighlight.foreground6": "#1BE195",
+		"editorBracketHighlight.foreground1": "#f7f7ff",
+		"editorBracketHighlight.foreground2": "#FFCB6B",
+		"editorBracketHighlight.foreground3": "#18AAFF",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#ff3064",
 
 		"editor.foldBackground": "#00000033",
@@ -277,7 +274,7 @@
 		"terminal.background": "#1a1c21",
 
 		// BREADCRUMBS COLORS
-		"breadcrumb.background": "#1a1c21",
+		"breadcrumb.background": "#292C36",
 		"breadcrumb.foreground": "#ddddff",
 		"breadcrumb.focusForeground": "#f7f7ff",
 		"breadcrumbPicker.background": "#1a1c21",
@@ -299,6 +296,12 @@
 		"menu.separatorBackground": "#aaaaff"
 	},
 	"tokenColors": [
+		{
+			"scope": "source",
+			"settings": {
+				"foreground": "#f7f7ff"
+			}
+		},
 		{
 			"scope": ["meta.embedded", "source.groovy.embedded"],
 			"settings": {
@@ -326,7 +329,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#DDDDFF77"
+				"foreground": "#ddddff77"
 			}
 		},
 		{
@@ -354,30 +357,9 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag.css",
-			"settings": {
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#ddddff"
-			}
-		},
-		{
-			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.mixin.css",
-				"entity.other.attribute-name.id.css",
-				"entity.other.attribute-name.parent-selector.css",
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
-				"source.css.less entity.other.attribute-name.id",
-				"entity.other.attribute-name.scss"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#E0BEFF"
 			}
 		},
 		{
@@ -431,9 +413,16 @@
 			}
 		},
 		{
+			"name": "Dot Property / Method Accessor",
+			"scope": "punctuation.accessor",
+			"settings": {
+				"foreground": "#F1A256"
+			}
+		},
+		{
 			"scope": "punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#DDDDFF77"
+				"foreground": "#f7f7ff77"
 			}
 		},
 		{
@@ -476,7 +465,7 @@
 		{
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
-				"foreground": "#ddddff"
+				"foreground": "#f7f7ff"
 			}
 		},
 		{
@@ -542,9 +531,21 @@
 			}
 		},
 		{
-			"scope": ["support.type.vendored.property-name", "support.type.property-name", "variable.css", "variable.scss", "variable.other.less", "source.coffee.embedded"],
+			"scope": ["support.type.property-name"],
+			"settings": {
+				"foreground": "#f7f7ff"
+			}
+		},
+		{
+			"scope": ["support.type.vendored.property-name"],
 			"settings": {
 				"foreground": "#ddddff"
+			}
+		},
+		{
+			"scope": ["variable.css", "variable.scss", "variable.other.less", "source.coffee.embedded"],
+			"settings": {
+				"foreground": "#E0BEFF"
 			}
 		},
 		{
@@ -562,7 +563,13 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#f7f7ff"
+			}
+		},
+		{
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#F1A256"
 			}
 		},
 		{
@@ -579,7 +586,7 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#aaaaff"
+				"foreground": "#E98FEC"
 			}
 		},
 		{
@@ -597,7 +604,7 @@
 		{
 			"scope": "support.function.git-rebase",
 			"settings": {
-				"foreground": "#ddddff"
+				"foreground": "#f7f7ff"
 			}
 		},
 		{
@@ -617,10 +624,9 @@
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#5FAEEE"
+				"foreground": "#06C9E2"
 			}
 		},
-		// copied from dark_plus default theme
 		{
 			"name": "Function declarations",
 			"scope": [
@@ -632,6 +638,13 @@
 			],
 			"settings": {
 				"foreground": "#ecd69a"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#e0beff"
 			}
 		},
 		{
@@ -672,14 +685,14 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#f5ca82"
 			}
 		},
 		{
 			"name": "Types declaration and references, TS grammar specific",
 			"scope": ["meta.type.cast.expr", "meta.type.new.expr", "support.constant.math", "support.constant.dom", "support.constant.json", "entity.other.inherited-class"],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#f5ca82"
 			}
 		},
 		{
@@ -690,11 +703,17 @@
 			}
 		},
 		{
-			"name": "Variable and parameter name",
+			"name": "Default Variables Names",
+			"scope": ["support.variable"],
+			"settings": {
+				"foreground": "#f7f7ff"
+			}
+		},
+		{
+			"name": "Variable Names",
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
-				"support.variable",
 				"entity.name.variable",
 				"constant.other.placeholder" // placeholders in strings
 			],
@@ -706,14 +725,14 @@
 			"name": "Constants and enums",
 			"scope": ["variable.other.constant", "variable.other.enummember"],
 			"settings": {
-				"foreground": "#ddddff"
+				// "fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Object keys, TS grammar specific",
 			"scope": ["meta.object-literal.key"],
 			"settings": {
-				"foreground": "#ddddff"
+				"foreground": "#f7f7ff"
 			}
 		},
 		{
