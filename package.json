@@ -6,6 +6,9 @@
 	"engines": {
 		"vscode": "^1.63.0"
 	},
+	"repository": {
+		"url": "https://github.com/dbruestle/themes-cean-dark.git"
+	},
 	"categories": [
 		"Themes"
 	],
