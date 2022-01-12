@@ -1,14 +1,23 @@
 {
+	"publisher": "dbruestle",
 	"name": "cean-dark",
 	"displayName": "Cean Dark",
-	"description": "Cean Dark Color Theme",
+	"description": "Simple but colorful theme that uses dark base colors with a tint of purple",
+	"icon": "images/icon.png",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
 	"repository": {
+		"type": "git",
 		"url": "https://github.com/dbruestle/themes-cean-dark.git"
 	},
+	"keywords": [
+		"dark",
+		"purple",
+		"dark theme",
+		"cean"
+	],
 	"categories": [
 		"Themes"
 	],
