@@ -1,21 +1,21 @@
 {
-    "name": "cean-dark",
-    "displayName": "Cean Dark",
-    "description": "Cean Dark Color Theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cean Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Cean Dark-color-theme.json"
-            }
-        ]
-    }
+	"name": "cean-dark",
+	"displayName": "Cean Dark",
+	"description": "Cean Dark Color Theme",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cean Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Cean Dark-color-theme.json"
+			}
+		]
+	}
 }

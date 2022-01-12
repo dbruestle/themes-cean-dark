@@ -1,13 +1,17 @@
-# README
-## This is the README for your extension "cean-dark"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Cean Dark - Color Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Simple but colorful theme that uses dark base colors with a tint of purple mixed with light colors for syntax highlighting and bright vibrant colors for errors, warnings and info messages.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## PREVIEW
+
+<img src="images/preview.png" alt="Cean Dark - Preview" width="800"/>
+
+---
+
+## COLORS
+
+<img src="images/base_colors.png" alt="Cean Dark - Base Colors" width="800"/>
+<img src="images/syntax_colors.png" alt="Cean Dark - Syntax Colors" width="800"/>
+<img src="images/accent_colors.png" alt="Cean Dark - Accent Colors" width="800"/>
