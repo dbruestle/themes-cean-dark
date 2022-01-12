@@ -4,7 +4,7 @@
 	"displayName": "Cean Dark",
 	"description": "Simple but colorful theme that uses dark base colors with a tint of purple",
 	"icon": "images/icon.png",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
