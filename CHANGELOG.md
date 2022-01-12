@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "cean-dark" extension will be documented in this file.
+## [Released]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 12.01.2022 Initial release
